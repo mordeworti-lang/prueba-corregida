@@ -1,0 +1,123 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@crudzaso.edu",
+      "password": "admin123",
+      "fullName": "Dr. Sarah Johnson",
+      "role": "admin",
+      "phone": "+1 (555) 123-4567",
+      "department": "Computer Science",
+      "employeeId": "CZ-882103",
+      "roleLevel": "Senior Administrator",
+      "joinDate": "2020-09-14T00:00:00.000Z",
+      "avatar": "https://randomuser.me/api/portraits/women/65.jpg"
+    },
+    {
+      "id": "2",
+      "email": "user@crudzaso.edu",
+      "password": "user123",
+      "fullName": "Alex Morgan",
+      "role": "user",
+      "phone": "+1 (555) 234-5678",
+      "department": "Design",
+      "employeeId": "CZ-882104",
+      "roleLevel": "Student",
+      "joinDate": "2021-03-10T00:00:00.000Z",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "id": "3",
+      "email": "student@university.edu",
+      "password": "password123",
+      "fullName": "Maria Rodriguez",
+      "role": "user",
+      "phone": "+1 (555) 345-6789",
+      "department": "Mathematics",
+      "employeeId": "CZ-882105",
+      "roleLevel": "Student",
+      "joinDate": "2022-01-15T00:00:00.000Z",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "email": "sergio@test.com",
+      "password": "123456",
+      "fullName": "sergio",
+      "role": "user",
+      "phone": "",
+      "department": "",
+      "employeeId": "CZ-710888",
+      "roleLevel": "Student",
+      "joinDate": "2026-02-02T17:36:38.293Z",
+      "avatar": "https://randomuser.me/api/portraits/lego/6.jpg",
+      "id": "wKAZT7k"
+    },
+    {
+      "email": "alejo@test.com",
+      "password": "1234567",
+      "fullName": "alejo",
+      "role": "user",
+      "phone": "",
+      "department": "",
+      "employeeId": "CZ-910692",
+      "roleLevel": "Student",
+      "joinDate": "2026-02-02T18:04:32.889Z",
+      "avatar": "https://randomuser.me/api/portraits/lego/3.jpg",
+      "id": "LvS8aCO"
+    },
+    {
+      "name": "CHAMO",
+      "email": "alejandro@gmail.com",
+      "password": "123456",
+      "role": "visitor",
+      "avatar": "https://i.pravatar.cc/150?img=65",
+      "id": "3sD7He4"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "2",
+      "userId": "2",
+      "name": "Physics Lab Report: Quantum Mechanics",
+      "assignee": "Alex Morgan",
+      "status": "Pending",
+      "priority": "Medium",
+      "dueDate": "2026-02-20",
+      "category": "Physics",
+      "description": "Complete lab report on quantum mechanics experiments"
+    },
+    {
+      "id": "3",
+      "userId": "3",
+      "name": "Database Systems Project: Phase 1",
+      "assignee": "Maria Rodriguez",
+      "status": "In Progress",
+      "priority": "High",
+      "dueDate": "2026-02-18",
+      "category": "Computer Science",
+      "description": "Design and implement database schema for e-commerce platform"
+    },
+    {
+      "id": "4",
+      "userId": "3",
+      "name": "English Literature Essay",
+      "assignee": "Maria Rodriguez",
+      "status": "Completed",
+      "priority": "Low",
+      "dueDate": "2026-02-10",
+      "category": "Literature",
+      "description": "Analysis of modernist poetry in the 20th century"
+    },
+    {
+      "id": "5",
+      "userId": "2",
+      "name": "Chemistry Lab: Organic Synthesis",
+      "assignee": "Alex Morgan",
+      "status": "In Progress",
+      "priority": "High",
+      "dueDate": "2026-02-25",
+      "category": "Chemistry",
+      "description": "Complete organic chemistry synthesis experiment and report"
+    }
+  ]
+}
